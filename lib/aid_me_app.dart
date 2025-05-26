@@ -19,8 +19,8 @@ class AidMeApp extends StatelessWidget {
       child: MaterialApp(
         title: 'aid_me App',
         theme: ThemeData(
-            primaryColor: ColorsManager.mainBlue,
-            scaffoldBackgroundColor: Colors.white,
+          primaryColor: ColorsManager.mainBlue,
+          scaffoldBackgroundColor: Colors.white,
         ),
         debugShowCheckedModeBanner: false,
         initialRoute: Routes.onBoardingScreen,
